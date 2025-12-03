@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 120px);
+    gap: 20px;
+}
+
+main p {
+    background-color: #e0bb9b;
+    border-radius: 8px;
+    padding: 10px;
+}

@@ -1,0 +1,13 @@
+article {
+    border: 2px solid brown;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+p {
+    padding: 5px;
+}
